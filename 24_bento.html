@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <tittle>Bentocat</tittle>
+   <style>
+
+    body {
+        background-color: black;
+    }
+    .contenedor {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 4fr;
+    grid-template-rows: repeat(3,1fr);
+    gap: 1rem;
+    padding: 1rem;
+    margin: 0 auto;
+   
+    height: 50rem;
+    width: 80%;
+    background-color: rgb(0, 0, 0);
+     border-radius: 20px;
+
+    }
+
+    div {
+        border-radius: 10px;
+    }
+
+   div div{
+
+        background-color: rgb(231, 218, 243);
+         
+         border-radius: 20px;
+    }
+
+    
+    .dos {
+        grid-column: 2 /span 2;
+    }
+
+
+    .tres {
+
+        grid-row: 1/ span 3;
+        grid-column: 4;
+    }
+    
+    .cuatro {
+        grid-column: 1/ span 2;
+    }
+
+    .seis {
+        grid-column: 1/ span 6;
+    }
+
+    .seis {
+        grid-column: 1/span 3;
+    }
+  
+.cinco {
+    grid-column: 3;
+}
+    
+       
+
+   </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="uno"></div>
+        <div class="dos"></div>
+        <div class="tres"></div>
+        <div class="cuatro"></div>
+        <div class="cinco"></div>
+        <div class="seis"></div>
+
+    </div>
+</body>
+</html>
