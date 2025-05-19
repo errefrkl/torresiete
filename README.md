@@ -14,7 +14,7 @@ ESTE ARCHIVO HA SIDO MODIFICADO.
 
 Dos veces.
 
-hola
-hello
+hi
 Hola
+otra configuración
 
