@@ -1,0 +1,51 @@
+
+
+body {
+    background-color: rgb(158, 184, 240);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:16px;
+    margin: 100px 100px 100px 100px;
+    color:darkred;
+}
+
+.subtitulos {
+    color: rgb(255, 153, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+h1 {
+
+    color: rgba(201, 85, 13, 0.758);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    
+
+}
+
+.ing {
+    font-weight: bold;
+}
+
+.tip{
+
+    font-style: italic;
+    background-color: rgb(223, 255, 255);
+}
+
+.intro {
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(4, 88, 67)
+}
+
+.hummus {
+    width: 500px;
+    box-shadow: 10px 10px 5px 0 rgba(110, 106, 103, 0.30);
+    border-radius: 400px;
+    
+}
