@@ -1,4 +1,6 @@
-
+html {
+    font-size: 20px;
+}
 .contenedor {
     background-color: beige;
     border: transparent;
@@ -16,12 +18,11 @@
  }
 
 .layout {
-  width: 100%;
+  width: 80%;
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: repeat(6, 1fr);
   gap: 8px;
-  width: 80%;
   margin: 0 auto;
   padding: 3rem;
   background-color: #FFD97D;
@@ -41,18 +42,19 @@ div{
 }
 
 div a{
- font-size: 40px;
+ font-size: 2rem;
  text-decoration: none;
   font-family: "Raleway", sans-serif;
  
-  margin:1rem;
-  color: #AAF683;
+  margin:0rem;
+  color: #EE6055;
+  
  
 }
 
 a:hover {
     background-color: #AAF683;
-    color: #60D394;
+    color: #EE6055;
 }
 
 h1 {
