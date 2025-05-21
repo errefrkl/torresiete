@@ -2,8 +2,14 @@ html {
     font-size: 20px;
 }
 
+header {
+    margin: 0;
+    width: 100%;
+}
+
 body {
     margin: 0;
+    background-color: beige;
 }
 .contenedor {
     background-color: beige;
@@ -15,6 +21,7 @@ body {
      font-size: 20px;
      text-align: center;
      margin: 0;
+     width: 100%;
      padding: 1rem;
      font-family: "Slackey";
      color: beige;
@@ -48,7 +55,6 @@ div a{
  font-size: 2rem;
  text-decoration: none;
   font-family: "Raleway", sans-serif;
- 
   margin:0rem;
   color: #EE6055;
   
@@ -67,8 +73,10 @@ h1 {
     text-align: center;
     font-weight: 400;
     font-family: "Slackey",sans-serif;
-    padding: 3rem;
+    padding: 2rem 1rem 2rem 1rem ;
     color: #EE6055;
+    width: 100%;
+
 }
 
 
