@@ -23,13 +23,18 @@ h2{
     background-color: #5284c5;
     height: 80px;
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 2fr;
+    grid-template-columns: 1fr;
     margin-top: 2rem;
+    align-items: center;
+    justify-items: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+
 }
 
-.join p {
-    color: white;
-}
+
+
 
 
 .intro {
