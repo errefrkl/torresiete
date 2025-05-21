@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast food</title>
+    <style>
+        body{
+        background-color:rgb(15,15,15);
+        color: #eeb703;
+        margin: 0;
+        padding: 0;
+}
+
+div{
+    border-radius: 10px;
+    background-color: #eeb703;
+}
+
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+    gap: 2rem;
+    height: 800px;
+    padding: 2rem;
+    width: 60%;
+    margin: 0 auto;
+  
+    background-color: transparent;
+    border-radius: 10px;
+    background-color:rgb(15,15,15);
+    padding: 20px;
+}
+
+.uno {
+    background-image: url(img/1.png);
+}
+
+.dos {
+
+    background-image: url(img/2.png);
+}
+
+.tres{
+
+    grid-column: 3/span 2;
+background-image: url(img/3.png);
+}
+
+
+.cuatro {
+
+    grid-row: 2/span 2;
+    background-image: url(img/4.png);
+
+}
+
+.cinco,.siete {
+    grid-column: 2/ span 2;
+}
+
+.cinco {
+
+     background-image: url(img/5.png);
+
+}
+
+
+.seis {
+    background-image: url(img/6.png);
+}
+.siete {
+    background-image:url(img/7.png);}
+
+.ocho {
+    background-image: url(img/8.png);
+}
+
+
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <div class="uno">    </div>
+        <div class="dos">  </div>
+        <div class="tres"></div>
+        <div class="cuatro"></div>
+        <div class="cinco"></div>
+        <div class="seis"></div>
+        <div class="siete"></div>
+        <div class="ocho"></div>
+
+    </div>
+</body>
+</html>

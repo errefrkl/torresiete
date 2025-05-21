@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID01</title>
+    <style>
+        .contenedor {
+            border: solid 4px blue;
+            background-color: cornsilk;
+            display: grid;
+            grid-template-columns: 100px 200px auto;
+            grid-template-rows: 100px 200px 100px;
+            row-gap: 20px;
+            column-gap: 20px;
+        }
+
+        .contenedor div{
+            
+            border: 1px solid palevioletred;
+            border-radius: 6px;
+            background-color: deeppink;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+    
+</body>
+</html>

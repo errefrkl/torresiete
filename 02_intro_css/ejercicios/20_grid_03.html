@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .contenedor {
+        display: grid;
+        border: 3px solid rgb(173, 60, 214);
+        background-color: rgb(226, 193, 122);
+        grid-template-columns: 140px repeat(3, 1fr 1fr);
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        gap:5px 5px;
+        padding: 5px;
+    }
+
+
+    div{
+        border: 2px solid rgb(236, 128, 4);
+        border-radius: 5px;
+        background-color: rgb(217, 162, 226);
+    }
+
+    .primera{
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+ .cuatro{
+
+    grid-column: 2/4;
+    grid-row: 2/5;
+ }
+
+ .seis {
+    grid-row: 3/ span 3;
+    grid-column: 6/span 3;
+ }
+  </style>  
+</head>
+<body>
+
+    <div class="contenedor">
+<div class="primera">1</div>
+<div>2</div>
+<div>3</div>
+<div class="cuatro">4</div>
+<div>5</div>
+<div class="seis">6</div>
+<div>7</div>
+<div>8</div>
+<div>9</div>
+  </div>
+</body>
+</html>
