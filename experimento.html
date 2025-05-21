@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experimento</title>
+    <style>
+        .contenedor {
+            display: grid;
+            gap:10px;
+            grid-template-columns: minmax(200px,1fr) repeat(auto-fit,minmax(200px,1fr)); 
+            width: 80%;
+            margin:0 auto;
+            background-color: aqua;
+            padding: 20px;
+        }
+
+        .contenedor div {
+            background-color: crimson;
+            border: 2px solid bisque;
+            color: rgb(66, 1, 24);
+            font-size: 30px;
+            font-weight: 900;
+            min-height: 50px;
+            width: 100px;
+        }
+
+        .uno {
+            grid-row: 1 /-5;
+             grid-column: 1/2;
+        }
+
+        #seis {
+            background-color: rgb(255, 255, 0);
+              grid-row: 1 /-5;
+              grid-column: 1/2;
+             
+        }
+#seis:hover {
+    z-index: -1;
+} 
+
+
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="uno">1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div id="seis">6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+    
+</body>
+</html>
