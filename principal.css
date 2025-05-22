@@ -63,7 +63,7 @@ div a{
 
 a:hover {
     background-color: #AAF683;
-    color: #EE6055;
+    color: #f3aa01;
 }
 
 h1 {
@@ -79,6 +79,9 @@ h1 {
 
 }
 
+.peque {
+    font-size: 1.5rem;
+}
 
 
 
