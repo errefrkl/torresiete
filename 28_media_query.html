@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        html {
+            color: beige;
+        }
+        .contenedor {
+            display: grid;
+            grid-template-columns: 1fr 4fr 1fr;
+            grid-template-rows: auto 1fr auto;
+            height: 90vh;
+            border: solid rgb(82, 16, 4) 3px;
+            width: 80%;
+            margin: 0 auto; }
+
+        .menu {
+
+            grid-column: 1/span 3;
+            background-color: rgb(226, 130, 13);
+          
+            min-height: 5rem;
+        }
+        .pie {
+            grid-column: 1 / span 3;
+       
+            background-color: orangered;
+
+             min-height: 5rem;
+               }
+
+       
+
+        div {
+
+            
+        }
+
+        .uno {
+            background-color: antiquewhite;
+        }
+
+        .dos {
+            background-color: rgb(243, 213, 173);
+        }
+
+        .tres {
+            background: rgb(228, 178, 113);
+        }
+
+        /* Media query */
+
+        @media screen and (max-width:900px) {
+
+             .contenedor {
+            display: grid;
+            grid-template-columns: 1fr;
+          grid-template-rows: auto;
+            border: solid rgb(82, 16, 4) 3px;
+            width: 80%;
+            margin: 0 auto;
+
+        }
+          
+        
+        .uno {
+            background-color: rgb(17, 46, 173);
+        }
+
+        .dos {
+            background-color: rgb(47, 80, 223);
+        }
+
+        .tres {
+            background: rgb(156, 164, 231);
+        }
+
+ .menu {
+
+            background-color: rgb(8, 3, 73);
+       
+        }
+        .pie {
+           
+          
+            background-color: rgb(38, 36, 73);
+
+               }
+
+        }
+    </style>
+</head>
+<body>
+<div class="contenedor">
+ <div class="menu">
+
+ </div>
+
+    <div class="uno"></div>
+    <div  class="dos"></div>
+    <div class="tres"></div>
+ 
+ 
+   <div class="pie"></div>
+</div>    
+</body>
+</html>

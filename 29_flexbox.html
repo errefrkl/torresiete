@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .contenedor {
+            display: flex;
+            gap:10px;
+             border: 2px solid rgb(106, 133, 223);  
+             flex-direction: row;
+             flex-wrap: wrap;
+           flex-grow: 1;
+           flex-shrink: 2;
+           
+           justify-content: space-around;
+           align-items: center;
+
+
+             }
+
+             .uno {
+             flex-flow: 1 1 auto;
+             text-align: center;
+             height: 800px;
+             }
+
+             .dos {
+                
+
+             }
+        .uno, .dos, .tres  {
+            border: 2px solid salmon;
+            height: 100px;
+            width: 100px;
+            
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="uno">1</div>
+        <div class="dos">2</div>
+        <div class="tres">3</div>
+        
+    </div>
+</body>
+</html>

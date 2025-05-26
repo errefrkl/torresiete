@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clove</title>
+
+    <style>
+
+        
+ .contenedor{
+    display: grid;
+    grid-template-columns: 2fr repeat(5,1fr);
+    grid-template-rows: 1fr repeat(4,2fr);
+    background-color: rgba(206, 206, 245, 0.301);
+    color:white;
+    gap:10px;
+    max-width: 80%;
+    max-height: 80vh ;
+    margin:0 auto;
+    
+}
+
+.contenedor div {
+min-height: 100px;
+min-width: 100px;
+    border: 2px solid red;
+     
+}
+.menuv {
+grid-row: 1/-1;
+}
+
+.arriba {
+    grid-column: 2/-1;
+} 
+
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    border: 2px solid red;
+
+}
+
+@media (max-width:600px) {}
+.contenedor div {
+min-height: 100px;
+border: 2px solid rgba(0, 255, 0, 0.664);    
+}
+
+.menuv {
+    grid-row: 1/span 2;
+ background-color: blueviolet;
+}
+
+.arriba {
+    grid-row: 15/16;
+    background-color: coral;
+}
+
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="menuv">1</div>
+        <div class="arriba">2</div>
+        <div>3</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    
+</body>
+</html>

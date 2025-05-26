@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .contenedor {
+            color:rgb(229, 132, 132);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 28px;
+            
+            display: grid;
+            grid-template-columns: 1fr 4fr 1fr;
+            grid-template-rows: auto 1fr auto;
+            height: 90vh;
+            width: 80%;
+            border: 2px solid blue;
+            margin: 0 auto;
+
+        }
+
+        .uno {
+            background-color: azure;
+        }
+
+        .dos {
+            background-color: bisque;
+        }
+
+        .tres {
+            background-color: blueviolet;
+        }
+        .menu{
+            grid-column: 1 / -1;
+            background-color: rgb(86, 87, 88);
+            min-height: 5rem;
+        }
+        .pie{
+            grid-column:1 / -1 ;
+            background-color: rgb(187, 255, 0);
+            min-height: 5rem;
+        }
+
+        /* Media query*/
+        @media screen and (max-width: 900px) {
+        .contenedor {
+            color:rgb(244, 242, 242);
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            
+            width: 80%;
+            border: 2px solid blue;
+            margin: 0 auto;
+
+        } 
+            .menu{
+                background-color: rgb(67, 69, 69);
+            }           
+            .uno {
+                background-color: rgb(73, 248, 248);
+            }
+
+            .dos {
+                background-color: rgb(247, 166, 68);
+            }
+
+            .tres {
+                background-color: rgb(40, 8, 70);
+            }
+            .pie{
+                background-color: rgb(56, 230, 131);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="menu">MENU</div>
+        <div class="uno">UNO</div>
+        <div class="dos">DOS</div>
+        <div class="tres">TRES</div>
+        <div class="pie">PIE</div>
+
+    </div>
+</body>
+
+</html>
