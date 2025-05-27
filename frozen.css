@@ -1,0 +1,96 @@
+
+
+
+    body{
+       font-family: "Raleway", sans-serif ;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    background: url(img/seigaiha_ykdj2f.webp) ;
+}
+
+
+  nav{
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 90%;
+            min-height: 5rem;
+            margin: 0 auto;
+
+            
+        }
+    
+    
+   header{
+            color:white;
+            background-color: rgb(39, 38, 38);
+            font-size: 1.7rem;
+            font-weight: 600;
+            
+        }
+
+
+
+.azul {
+    color: #48c1e6;
+}
+
+
+section {
+  
+            width: 90%;
+            margin:0 auto;
+            padding-top:13rem;
+        }
+
+
+   h1 {
+            font-size: 9rem;
+            font-weight: 700;
+            margin-top:0;
+        }
+
+        h3 {
+            font-size: 4rem;
+            font-weight: 700;
+        }
+
+        h5 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            line-height: 3.5rem;
+        }
+
+span.subrosa
+{
+     text-decoration: underline;
+            text-decoration-color: rgb(147, 8, 160);
+            text-decoration-thickness: .8vw;
+            text-decoration-style: solid;
+
+}
+
+span.subazul
+{
+     text-decoration: underline;
+            text-decoration-color: rgba(65, 209, 235, 1);
+            text-decoration-thickness: .6vw;
+            text-decoration-style: solid;
+}
+
+span.subverde {
+  text-decoration: underline;
+            text-decoration-color: rgb(4, 175, 84);
+            text-decoration-thickness: .6vw;
+            text-decoration-style: solid;
+
+
+}
+
+
+.linea {
+    background-color:  rgb(66, 63, 63) ;
+    height: 10px;
+}
