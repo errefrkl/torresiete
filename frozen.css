@@ -10,7 +10,7 @@
 }
 
 
-  nav{
+  nav {
             display:flex;
             flex-direction: row;
             justify-content: space-between;
@@ -38,12 +38,7 @@
 }
 
 
-section {
-  
-            width: 90%;
-            margin:0 auto;
-            padding-top:13rem;
-        }
+
 
 
    h1 {
@@ -63,34 +58,122 @@ section {
             line-height: 3.5rem;
         }
 
-span.subrosa
-{
-     text-decoration: underline;
+        h2 {
+
+            font-size: 6rem;
+        }
+
+
+   .subr-morado {
+            text-decoration: underline;
             text-decoration-color: rgb(147, 8, 160);
-            text-decoration-thickness: .8vw;
+            text-decoration-thickness: .6vw;
             text-decoration-style: solid;
+        }
 
-}
-
-span.subazul
-{
-     text-decoration: underline;
+        .subr-azul {
+            text-decoration: underline;
             text-decoration-color: rgba(65, 209, 235, 1);
             text-decoration-thickness: .6vw;
             text-decoration-style: solid;
-}
+        }
 
-span.subverde {
-  text-decoration: underline;
+        .subr-verde {
+            text-decoration: underline;
             text-decoration-color: rgb(4, 175, 84);
             text-decoration-thickness: .6vw;
             text-decoration-style: solid;
-
-
-}
+        }
 
 
 .linea {
     background-color:  rgb(66, 63, 63) ;
     height: 10px;
 }
+ .contenido i {
+    color: white;
+ }
+
+ section {
+     width: 90%;
+            margin:0 auto;
+            padding: 8rem;
+ }
+   .contenido{
+            width: 90%;
+            margin:0 auto;
+            padding-top:1rem;
+            
+        }
+        .section2{
+            background-color: rgba(65, 209, 235, 1);
+            border-top: 1rem solid black;
+            border-bottom: 1rem solid black;
+ padding-top: 0;
+            height: 90vh;
+        }
+
+     p{
+            font-size: 2rem;
+            line-height: 2lh;
+           
+        }
+.section2 {
+    padding-bottom: 0rem;
+}
+        .section3 {
+               background-image: url(img/crossword_qr1ieh.webp);
+            border-top: 1rem solid black;
+            border-bottom: 1rem solid black;
+            height: 90vh; 
+             padding-top: 0;
+             padding-bottom: 0rem;
+        }
+
+        .section3 i  {
+            color:black;
+        }
+
+        .section4 {
+              background-image: url(img/prism_ly2ugg.webp);
+              color: white;
+             padding-top: 0;
+             height: 90vh; 
+        }
+
+        .section5 {
+
+        
+                background-color: rgba(0, 0, 0, 0.096);
+            border-top: 1rem solid black;
+            border-bottom: 1rem solid black;
+            height: 90vh; 
+             padding-top: 4rem;
+
+        }
+
+        .videos {
+            display: flex;
+            gap: 20px;
+        }
+
+        footer {
+          
+        }
+        footer {
+             color:white;
+            background-color: rgb(39, 38, 38);
+            font-size: 1.7rem;
+            font-weight: 600;
+          margin: 0;
+         width: 100%;
+
+          text-align: center;
+          margin: 0;
+        }
+
+       .ft {
+            text-align: center;
+            margin: 0;
+            padding: 0.5rem;
+        }
