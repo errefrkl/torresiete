@@ -1,0 +1,173 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fafbfb;
+}
+
+.menu {
+display: grid;
+grid-template-columns: 1fr 1fr 5fr 1fr 1fr;
+padding: 1rem;
+text-transform: uppercase;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.join {
+    background-color: #5284c5;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 4rem;
+    align-items: center;
+    justify-items: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+
+}
+
+.intro {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+   
+   
+}
+.boton {
+    margin-top: 2rem;
+}
+.intro h1{
+     margin-top: 6rem;
+     font-size: 3rem;
+
+}
+
+.intro p {
+     line-height: 1.5lh;
+}
+
+.boton a{
+    background-color: #5284c5;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.boton a:hover {
+    background-color: rgb(31, 45, 62);
+}
+
+.contenedor {
+
+    display: grid;
+    grid-template-columns: repeat (auto-fit minmax(600px));
+    border: solid 3px palevioletred;
+    grid-template-rows: repeat(4 1fr);
+    gap:10px;
+    width: 80%;
+    margin: 0 auto;
+    height: 800px;
+ 
+}
+
+.contenedor div {
+    min-height: 100px;
+    border: 2px solid blueviolet;
+}
+
+.uno {
+
+     grid-column: 1/span 2;
+      grid-row: 1/span 2;
+      background-image: url(large-0.jpg);
+   background-size: auto;
+    border-radius: 10px;
+   
+}
+
+.ocho {
+   
+      grid-column: 3 / span 2;
+    grid-row: 3 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 3;
+    background-image: url(manza.png);
+     min-height: 300px;
+     
+    border-radius: 10px;
+    background-position: center;
+    background-size: auto;
+
+}
+
+.dos {
+     background-image: url(22.png);
+     background-size: cover;
+      min-height: 300px;
+    border-radius: 10px;
+}
+
+.uno{
+
+    
+}
+
+.speaking {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.speaking p {
+    text-align: center;
+     line-height: 1.5lh;
+}
+
+
+.contexto {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(800px,1fr));
+
+
+  gap: 30px;
+  margin: 0 auto;
+  width: 60%;
+  border: 3px solid salmon;
+ 
+ justify-items: center;
+ justify-content: space-between;
+
+}
+.contexto div {
+    border: solid salmon 10px;
+}
+
+.join{
+    background-color: #5284c5;
+    color: white;
+    height: 300px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.join p {
+    font-size: 50px;
+    width:60%;
+    margin: 0 auto;
+    text-transform:lowercase;
+
+}
+span {
+    text-transform: uppercase;
+}
