@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo IC</title>
+     <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Roboto", sans-serif;
+            font-size: 18px;
+            color: rgb(43, 42, 42);
+        }
+        header{
+            width: 100%;
+           /* border:1px solid blue; */
+        }
+        nav{
+            width:80%;
+            margin:0 auto;
+            /* border:1px solid red; */
+        }
+        h1{
+            font-size: 4rem;
+            color:white;
+            font-weight: 700;
+        }
+
+        h2 {
+            font-size: 3rem;
+        }
+
+        .contenedor {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top:1.4rem;
+            padding-bottom:1.4rem;
+        }
+
+        .logo img {
+            width: 50px;
+        }
+
+        .menu ul {
+            list-style: none;
+        }
+
+        .menu ul li {
+            display: inline;
+            padding-right: 1.5rem;
+            font-weight: 600;
+        }
+        .primera{
+            background-image:  linear-gradient(rgba(0, 0, 0, 0.247)), url("img/ic_primera.webp");
+            background-size: contain;
+            height: 75vh;
+            display:flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        .titulo{
+            width: 80%;
+            margin: 5rem auto;
+            
+        }
+        .titulo p, .dibujos p{
+            font-size: 2rem;
+            color:white;
+            font-weight: 400;
+        }
+        .dibujos{
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            align-items: end;
+            justify-content: space-between;
+            
+        }
+        .dibujos img{
+            width: 5rem;
+        }
+       
+
+        .dibujos div{
+            border-bottom: 3px solid white;
+            width:20%;
+        }
+     .segunda {
+        display:flex;
+        flex-direction: row;
+            width: 80%;
+            margin: 0 auto;
+            
+            
+     }
+
+
+     .divisor {
+ height: 1px;
+ width: 70%;
+ background-color: rgb(29, 29, 29);
+     }
+
+     .parrafo {
+        margin-top: 6rem;
+     }
+
+
+section.segunda p {
+    font-size: 1rem;
+            color:rgb(29,29,29);
+            font-weight: 400;
+}
+     .cuadricula {
+        display:flex;
+            flex-direction: row;
+            gap: 20px;
+            padding: 3rem;
+            flex-wrap: wrap;
+            margin: 3rem;
+     }
+
+
+     .sectores {
+        width: 15rem;
+        height: 15rem;
+          background-image:  linear-gradient(rgba(255, 253, 253, 0.74)),url(img/Sector-Retail.jpg); 
+        border-radius: 20px;
+        background-size: cover;
+     }
+
+     .sectores:hover{
+      background-image: url(img/Sector-Retail.jpg);
+
+     }
+
+
+     div.sectores p {
+        font-size: 30px;
+        padding: 6rem 0.5rem 0rem 2rem;
+        font-weight: 600;
+        margin-bottom: 0;
+       
+     }
+     div.sectores a{
+        text-decoration: none;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        color: rgb(255, 115, 0);
+        font-weight: 600;
+     }
+
+   
+    </style>
+</head>
+<body>
+      <header>
+        <nav class="contenedor">
+            <div class="logo">
+                <a href="">
+                    <img src="img/Logo-IC.png" alt="Logo IC">
+                </a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>SECTORES</li>
+                    <li>SERVICIOS</li>
+                    <li>PAÍSES</li>
+                    <li>HISTORIA</li>
+                    <li>POLÍTICAS Y VALORES</li>
+                    <li>PROVEEDORES</li>
+                    <li>EMPLEO</li>
+                    <li>CONTACTO</li>
+                    <li>ESP | ENG | FR</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="primera">
+
+        <div class="titulo">
+            <h1>FIT OUT & VALUE ENGINEERING</h1>
+            <p>Proyectos únicos para empresas internacionales.</p>
+        </div>
+        <div class="dibujos">
+            <div>
+                <img src="img/bolsas.png" alt="">
+                <p>RETAIL</p>
+            </div>
+            <div>
+                <img src="img/maniqui.png" alt="">
+                <p>LUJO</p>
+            </div>
+            <div>
+                <img src="img/hospital.png" alt="">
+                <p>SANITARIO</p>
+            </div>
+            <div>
+                <img src="img/oficinas.png" alt="">
+                <p>OFICINAS</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="segunda">
+
+        <div class="parrafo">
+            <h2 class="sect">Sectores</h2>
+            <div class="divisor">
+
+            </div>
+            <p>Empresa lider en la ejecución de proyectos complejos para grandes clientes internacionales de los sectores retail, lujo, sanitario y oficinas.</p>
+
+            
+        </div>
+        <div class="cuadricula">
+    <div class="sectores"> <p>Retail</p> <br> <a href="#"> Ver más </a> </div>
+    <div class="sectores"><p>Lujo</p> <br> <a href="#"> Ver más </a></div>
+    <div class="sectores"><p>Sanitario</p> <br> <a href="#"> Ver más </a></div>
+    <div class="sectores"><p>Oficinas</p> <br> <a href="#"> Ver más </a></div>
+        </div>
+
+
+    </section>
+    
+</body>
+</html>
