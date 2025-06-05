@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadenas de texto</title>
+    <script>
+        var cadena = "En un lugar de la 'Mancha' ..."
+        console.log(cadena);
+        console.log(cadena.toUpperCase());
+        console.log(cadena.toLowerCase());
+
+        var tmp = cadena.toLowerCase();
+
+
+        //    BUSCAR ALGO EN LA CADENA
+        console.log(tmp.indexOf("man"));
+
+        console.log(cadena.at(10));
+        console.log(cadena.slice(1, 17));
+
+        var indice = cadena.indexOf("Mancha");
+        console.log("indice: " + indice);
+        console.log(cadena.slice(indice, indice + 6));
+
+        //   -----------------------------------------------
+
+        var objetivo = "bla";
+        var minuscula = cadena.toLowerCase();
+        var largo = objetivo.lenght;
+
+        var indice = minuscula.indexOf(objetivo);
+        console.log("indice: " + indice);
+        console.log(cadena.slice(indice, indice + largo));
+
+        //   -----------------------------------------------
+
+        console.log(cadena);
+        var modif = cadena.replace("bla", "sitio");
+
+        console.log(modif);
+
+        //   -----------------------------------------------
+        var numero = 124;
+        var texto = ` Este
+        texto
+        está 
+        en 
+        varias ${numero}
+        líneas`;
+
+        console.log(texto);
+
+        var nombre = "Paco";
+        var email = "paco@gmail.com";
+        var edad = 90;
+
+        var mensaje = `Hola soy ${nombre}, tengo ${edad} años y mi correo es ${email}`;
+        console.log(mensaje);
+
+
+
+        //   EJERCICIOS
+
+        var nombre = " CARRIE: ";
+         var name = " CARRIE: ";
+        var introduccion = "En Nueva York, las relaciones son como las estaciones: cambian con cada mes.";
+        var localizacion = " Apartamento Carrie ";
+
+        var dice = `
+              Dicen que nada dura para siempre:
+              los sueños cambian, las modas van y vienen, 
+              pero las amistades nunca pasan de moda.
+              `
+
+
+
+        var miranda = "Miranda";
+
+         var mns = `Como diría ${miranda}, ${dice}`;
+       
+
+        // 1. Concatena dos cadenas de texto
+
+          console.log("------------------------");
+        console.log(localizacion + nombre + introduccion);
+
+
+        // 2. Muestra la longitud de una cadena de texto
+
+          console.log("------------------------");
+
+        console.log(introduccion.length);
+
+        // 3. Muestra el primer y último carácter de una cadena 
+
+        console.log(introduccion.indexOf("E"));
+        console.log(introduccion.indexOf("."));
+          
+        console.log("------------------------");
+
+        
+        console.log(introduccion.at("0"));
+        console.log(introduccion [0]);
+        console.log(introduccion.at(-1));
+        console.log (introduccion.at (introduccion.length -1));
+       
+
+        // 4. Convierte a minúsculas y a mayúsculas una cadena
+
+          console.log("------------------------");
+
+        console.log(localizacion.toUpperCase() + introduccion);
+        console.log(localizacion.toLowerCase() + nombre.toUpperCase() + introduccion);
+
+        // 5. Crea una cadena de texto de varias lineas
+
+          console.log("------------------------");
+
+        console.log(dice);
+
+        // 6. Interpola el valor de una variable en una cadena
+
+          console.log("------------------------");
+
+        console.log(localizacion.toUpperCase() + nombre.toUpperCase() + introduccion + mns);
+
+
+
+
+
+
+        // 7. Reemplazar todas las ocurrencias de una cadena por otra
+        console.log("------------------------");
+
+        var modificada= introduccion.replaceAll('a', '_A_');
+
+        console.log (modificada + "\n" + introduccion);
+
+
+
+
+        // 8. Comprueba si una cadena contiene una palabra concreta
+          console.log("------------------------");
+
+
+          console.log (introduccion.indexOf("mes"));
+
+     
+         
+
+        // 9. Comprueba si dos cadenas son iguales
+
+        var c= "CARRIE:"
+
+        console.log(name==nombre);
+
+        // 10. Comprueba si dos cadenas tienen la misma longitud
+
+        console.log(introduccion.length == dice.lenght);
+        console.log(introduccion.nombre == dice.name);
+
+
+
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
