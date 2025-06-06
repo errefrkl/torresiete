@@ -85,7 +85,7 @@
 
         // 4. Verifica si una persona puede votar o no (mayor o igual a 18) e indica cuántos años le faltan
 
-        var edad= 5;
+        var edad= 17;
          var operacion = 18 - edad;
 
         if (edad < 18) {
@@ -104,9 +104,178 @@
         //    dependiendo de la edad 
 
 
+        edad > 17 ? console.log ("Adulto"): console.log ("Menor");
+
         // 6. Muestra en que estación del año nos encontramos dependiendo del valor de una variable "mes"
 
+var mes= 8;
+
+
+//var estacion = ''; ---> variable sustituible por console.log // if(mes < 7) {estacion = 'primavera'};
+
+
+  if (mes < 4) {
+            console.log(`Invierno`);
+        }
+
+        else {
+
+            if (mes < 7) { console.log(`Primavera`); }
+
+            else {
+                if (mes < 10) {
+                    console.log(`Verano`);
+                }
+                else {
+                    console.log(`Otoño`);
+                }
+
+            }
+        }
+    
+
         // 7. Muestra el número de días que tiene un mes dependiendo de la variable del ejercicio anterior
+
+        var dias = 0; 
+
+        if (mes==2) {
+            dias= 28;
+        }
+        else {
+            if (mes== 1 || mes == 3 || mes== 5 || mes== 7 || mes== 8 || mes == 10 || mes == 12 )
+
+            {
+                dias = 31;
+            }
+
+            else {
+                dias= 30;
+            }
+        }
+ console.log (`El mes ${mes} tiene ${dias} dias.`);
+
+         // 8. Usa un switch para imprimir un mensaje de saludo diferente dependiendo del idioma
+
+
+         var idioma = "fr";
+
+
+
+         switch (idioma) {
+            case 'es': 
+            console.log('Gracias')
+                break;
+
+                  case 'fr': 
+            console.log('Merci')
+                
+                break;
+
+    
+                  case 'en': 
+            console.log('Thank you')
+                
+                break;
+                
+                  case 'it': 
+            console.log('Grazie')
+                
+                break;
+         
+            default:
+                console.log ("Language not found")
+                break;
+         }
+
+        // 9. Usa un switch para hacer de nuevo el ejercicio 6
+
+
+        mes= 5
+         switch (mes) {
+                case 1:
+                case 3: 
+                case 5: 
+                case 7: 
+                 case 8: 
+                case 10:
+                    case 12:
+            console.log('31 DÍAS')
+                break;
+
+                case 4:
+                case 6:
+                case 9:
+                case 5: 
+                case 11: 
+            console.log('30 DÍAS')
+                break;
+
+
+                  case 2:
+            console.log('28 DÍAS')
+                break;
+    
+
+
+            default:
+                console.log ("Este mes no existe")
+                break;
+         }
+
+        // 10. Usa un switch para hacer de nuevo el ejercicio 7
+
+
+
+    mes= 55
+         switch (mes) {
+                case 1:
+                case 2: 
+                case 3: 
+            console.log('Invierno')
+                break;
+
+                case 4:
+                case 5: 
+                case 6: 
+            console.log('Primavera')
+                break;
+
+
+                  case 7:
+                case 8: 
+                case 9: 
+            console.log('Verano')
+                break;
+         
+
+                  case 10:
+                case 11: 
+                case 12: 
+            console.log('Otoño')
+                break;
+         
+
+
+
+            default:
+                console.log ("Este mes no existe")
+                break;
+         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                //-------------------------------------
 
         var dia = 7;
 
