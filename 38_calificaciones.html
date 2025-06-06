@@ -29,22 +29,99 @@
             }
         }
 
-//-------------------------------------
+        //-------------------------------------
 
-var dia=7;
 
-if ( 0 <dia && dia <8) {
-if (dia==1) {console.log ("Lunes");}
-if (dia==2) {console.log ("Martes");}
-if (dia==3) {console.log ("Miércoles");}
-if (dia==4) {console.log ("Jueves");}
-if (dia==5) {console.log ("Viernes");}
-if (dia==6) {console.log ("Sábado");}
-if (dia==7) {console.log ("Domingo");}
-}
- else {
-    console.log ("Día incorrecto");
- }
+        // Ejercicios
+
+
+        var nombre = "Roo";
+
+        // 1. Imprime por consola tu nombre si una variable toma su valor
+
+        if (nombre == 'Rocio') { console.log("Nombre correcto"); }
+
+        else { console.log("Nombre incorrecto") };
+
+
+        // 2. Imprime por consola un mensaje si el usuario y contraseña concide con unos establecidos
+
+        var usuario = "erre";
+        var contraseña = "torresiete";
+
+
+        if (usuario == 'erre') {
+
+            console.log("Usuario correcto");
+            if (contraseña = "torresiete") { console.log("Estas dentro"); }
+
+
+            else { console.log("Clave incorrecta"); }
+        }
+        else { console.log("Usuario incorrecto"); }
+
+
+
+        // 3. Verifica si un número es positivo, negativo o cero e imprime un mensaje
+
+        var numero = 7;
+
+
+        if (numero == 0) {
+            console.log(`El valor es 0.`);
+        }
+
+        else {
+
+            if (numero > 0) { console.log(`El valor ${numero} es positivo`); }
+
+            else {
+                if (numero < 0) {
+                    console.log(`El valor ${numero} es negativo`);
+                }
+
+            }
+        }
+
+        // 4. Verifica si una persona puede votar o no (mayor o igual a 18) e indica cuántos años le faltan
+
+        var edad= 5;
+         var operacion = 18 - edad;
+
+        if (edad < 18) {
+            console.log(`No puedes votar. Te faltan ${operacion} años.`);
+        }
+
+        else {
+
+          if (edad > 18) {console.log(`Puedes votar`);}
+    }
+
+
+
+
+        // 5. Usa el operador ternario para asignar el valor "adulto" o "menor" a una variable
+        //    dependiendo de la edad 
+
+
+        // 6. Muestra en que estación del año nos encontramos dependiendo del valor de una variable "mes"
+
+        // 7. Muestra el número de días que tiene un mes dependiendo de la variable del ejercicio anterior
+
+        var dia = 7;
+
+        if (0 < dia && dia < 8) {
+            if (dia == 1) { console.log("Lunes"); }
+            if (dia == 2) { console.log("Martes"); }
+            if (dia == 3) { console.log("Miércoles"); }
+            if (dia == 4) { console.log("Jueves"); }
+            if (dia == 5) { console.log("Viernes"); }
+            if (dia == 6) { console.log("Sábado"); }
+            if (dia == 7) { console.log("Domingo"); }
+        }
+        else {
+            console.log("Día incorrecto");
+        }
 
 
 
@@ -52,6 +129,20 @@ if (dia==7) {console.log ("Domingo");}
 </head>
 
 <body>
+
+
+    <button onclick="alert('Has hecho click en el botón')">
+        Púlsame
+    </button>
+
+    <img onmousewheel="alert ('Sparks')" src="img/Gold-Fireworks-Transparent-Background.webp" alt="">
+
+
+
+
+
+
+
 
 </body>
 
