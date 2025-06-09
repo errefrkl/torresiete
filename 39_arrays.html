@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+    <script>
+        var miArray = [];
+        var semana = new Array(7);
+        // miArray[0] = 0;
+        // miArray[1] = 1;
+        // miArray[2] = 2;
+        // miArray[3] = 3;
+        // miArray[4] = 4;
+
+
+        semana[0] = "Lunes";
+
+        console.log(miArray);
+        console.log(semana);
+
+
+
+        miArray.push(1);
+        miArray.push(2);
+        miArray.push("Hola");
+
+
+
+
+        console.log(miArray);
+        console.log('Longuitud ' + miArray.length);
+
+
+        // ------------------------------------------------------------
+
+        var elemento;
+        //   elemento = miArray.pop ();
+
+        var lista = [];
+
+        lista[0] = 0;
+        lista[1] = 1;
+        lista[2] = 2;
+        lista[3] = 3;
+
+        console.log(lista);
+        miArray.shift('Hola');
+
+
+
+
+
+
+
+        //-------------------
+
+
+        var frutas = [];
+
+    frutas.push('fresa');
+    frutas.push('uvas');
+    frutas.push ('bananas');
+    frutas.unshift('melon');
+    frutas.unshift('mango');
+    frutas.push('naranja');
+
+    
+        // console.log (frutas.shift ());
+        // console.log (frutas.pop ());
+
+    var trozo = frutas.splice(2,4);
+    console.log("Trozo:" + trozo);
+        console.log(frutas);
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
