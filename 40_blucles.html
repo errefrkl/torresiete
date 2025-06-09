@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bucles</title>
+</head>
+<script>
+    //Bucle for --> controlado por un contador
+
+
+
+    // for(var i = 0; i < 10; i ++) { console.log (`La i vale ${i}`)};
+
+
+
+    //--------------------------------------
+
+    // var vueltas = 100;
+    // for (var i = 1; i <= vueltas; i ++) { console.log (`La i vale ${i}`)};
+
+    //--------------------------------------
+    //CONTAR PARES
+
+    // var vueltas = 100;
+    // for (var i = 0; i <= vueltas; i +=2) { console.log (`La i vale ${i}`)};
+
+
+
+    //--------------------------------------
+
+    //CONTAR AL REVÉS
+
+    //      var vueltas = 100;
+    // for (var i = vueltas; i>-1; i --) { console.log (`La i vale ${i}`)};
+
+    //--------------------------------------
+
+
+    //     //MÚLTIPLO DE TRES
+
+    //  for (var i = 3; i <100; i += 3) {console.log (`La i vale ${i}`)};
+
+
+
+//     var resto = 0;
+//     var base = 10;
+//     var multiplos = [];
+
+
+//     for (var i = 0; i < 100; i++) {
+//         resto = i % base; 
+//         if (resto == 0) { 
+//             multiplos.push(i); 
+//         }
+
+        
+//     }
+// console.log(multiplos);
+ 
+// console.log (`La i vale ${i}`);} multiplos
+
+
+
+var resto = 0;
+var base = 10;
+var nomultiplos= [];
+var multiplos = [];
+
+for (var  i = 0; i < 100; i++) {
+resto = i % base; 
+if (resto == 0) { multiplos.push(i);}
+
+else {
+    nomultiplos.push (i);
+}
+}
+ console.log(`Multiplos de ${base}: ${multiplos}`);
+  console.log(`No multiplos de ${base}: ${nomultiplos}`);
+</script>
+
+<body>
+
+</body>
+
+</html>
