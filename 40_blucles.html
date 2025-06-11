@@ -63,21 +63,78 @@
 
 
 
-var resto = 0;
-var base = 10;
-var nomultiplos= [];
-var multiplos = [];
+//var resto = 0;
+// var base = 10;
+// var nomultiplos= [];
+// var multiplos = [];
 
-for (var  i = 0; i < 100; i++) {
-resto = i % base; 
-if (resto == 0) { multiplos.push(i);}
+// for (var  i = 0; i < 100; i++) {
+// resto = i % base; 
+// if (resto == 0) { multiplos.push(i);}
 
-else {
-    nomultiplos.push (i);
+// else {
+//     nomultiplos.push (i);
+// }
+// }
+//  console.log(`Multiplos de ${base}: ${multiplos}`);
+//   console.log(`No multiplos de ${base}: ${nomultiplos}`);
+
+    //--------------------------------------
+// BUCLE WHILE
+
+// var x=0;
+
+// while (true) {
+// console.log ('Hola ' + x);
+// if (x==5) {
+// break;
+// }
+// x++ ;
+// }
+// console.log ('He salido');
+
+//  //--------------------------------------
+
+//  var arr1= [1,2,3,4,5,6,7,8];
+
+//  for (var valor of arr1) {
+//     console.log ("Valor:" + valor);
+//  }
+
+// //--------------------------------------
+// // CADENA LETRAS SEPARADAS
+// var cadena = 'Esto es una prueba';
+
+// for (var letra of cadena) {
+//  console.log (letra.toUpperCase());
+//  }
+
+
+//--------------------------------------
+
+// CADENA LETRAS SEPARADAS al revés
+var cadena = 'Esto es una prueba';
+
+var largo =cadena.length;
+var inversa = '';
+
+
+
+// for (var i= largo -1; i>= 0; i --) {
+//    inversa = inversa + cadena [i];
+// }
+
+// console.log (inversa);
+
+for (var letra of cadena) {
+    inversa = letra + inversa;
 }
-}
- console.log(`Multiplos de ${base}: ${multiplos}`);
-  console.log(`No multiplos de ${base}: ${nomultiplos}`);
+console.log (inversa);
+//--------------------------------------
+
+
+
+  
 </script>
 
 <body>

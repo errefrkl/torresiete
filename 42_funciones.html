@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones</title>
+    <script>
+
+        // var nombre= "Ro"
+        function hola(nombre) {
+            console.log('Hola ' + nombre);
+            //alert ('Hola');
+        }
+
+        hola("Ro");
+
+
+        //----------------Función que sume dos números-------------
+
+        function suma(a, b) {
+            return a + b;
+        }
+        var x = suma(3, 3);
+        console.log(x);
+
+        document.write(`La suma es ${x} .`);
+
+
+        // ----------------------------------
+
+        var numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+        function suma_array(sumandos) {
+            //1.Comprobar entradas
+            //2.Hacer el trabajo
+            //3.Comprobar la salida
+
+            var tmp = 0;
+
+            for (var valor of sumandos) {
+                tmp = suma(tmp, valor);
+            }
+
+            return tmp;
+        }
+
+        var x = suma_array(numeros);
+        console.log(x);
+
+
+        // ----------------------------------
+
+        function capitalize(texto) {
+            var convertido = texto[0].toUpperCase() + texto.slice(1).toLowerCase();
+            return convertido;
+        }
+
+        console.log(capitalize("bArbeRo"));
+
+        // ----------------------------------
+
+    //  x = "erase una vez en Sevilla";
+    //     z = x.split(' ')
+    //     console.log(z);
+
+
+var resultado = '';
+function super_capitalize(texto){
+
+        var trozos = texto.split(' ');
+        console.log (trozos);
+
+        for (var palabra of trozos) {
+            resultado += capitalize(palabra) + ' ';
+        }
+        console.log (resultado);
+}
+
+
+
+       super_capitalize('erase una vez en Sevilla'); 
+
+
+
+        
+
+
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
