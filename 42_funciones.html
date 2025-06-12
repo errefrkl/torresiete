@@ -82,6 +82,61 @@ function super_capitalize(texto){
 
 
 
+
+       //Hacer una función que nos indique si un texto tiene vocales (TRUE/FALSE)
+
+  function tieneVocales (texto) {
+
+
+ var vocales = 'aeiouAEIOU';
+ var salida = false;
+ 
+ for(var letra of vocales) {
+
+    if (texto.indexOf (letra) >= 0) {salida=true;
+
+
+    }
+     
+ }
+  
+return salida;
+
+  }
+
+// console.log(tieneVocales ('aaahyjgkfgh'));
+
+
+// HAY O NO VOCALES
+
+if (tieneVocales ('This is my house') == true) {
+    console.log ('La cadena tiene vocales');
+}
+
+else {
+    console.log ('La cadena NO tiene vocales.');
+}
+
+
+// CONTAR VOCALES
+
+function cuentaVocales (texto) {
+     var vocales = 'aeiouAEIOU';
+     var contador = 0;
+
+for (var letra of texto) {
+    if(vocales.indexOf (letra) >= 0) {
+        contador++;
+    }
+}
+
+return contador; 
+}
+
+// console.log (cuentaVocales ('Murcielago'));
+
+console.log (cuentaVocales ('2025'));
+
         
 
 
