@@ -17,6 +17,18 @@
 
 // IMPRIMIR EN LA CONSOLA DEL 1 AL 20 en una sola fila  (Array)
 
+// var lista= [];
+
+//  for (var i = 1; i <= 20; i ++) { 
+   
+//     lista.push (i);
+    
+// }
+//  console.log (lista);
+
+
+// DE NUMERO A CADENA
+
 var lista= [];
 
  for (var i = 1; i <= 20; i ++) { 
@@ -24,11 +36,7 @@ var lista= [];
     lista.push (i);
     
 }
- console.log (lista);
-
-
-
-
+ console.log (lista.toString ());
 
 
 
