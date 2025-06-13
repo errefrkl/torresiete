@@ -45,9 +45,18 @@ var cadena= lista.toString ();
 
 // SEPARAR ELEMENTOS DE LA CADENA
 
-// var x = cadena.split(',');
+var x = cadena.split(',');
 
-console.log (cadena.split(','))
+console.log (cadena.split(','));
 
 
-//  DE CADENA DE TEXTO A NUMERO -- BUCLE QUE RECORRA EL ARRAY, COJA CADA ELEMENTO Y LOS CONVIERTA A NÚMERO
+//  DE CADENA DE TEXTO A NUMERO -- BUCLE QUE RECORRA EL ARRAY, COGE CADA ELEMENTO Y LOS CONVIERTA A NÚMERO (parseint)
+
+var numeros = [];
+
+for (var valor of x) {
+numeros.push (parseInt (valor)); 
+}
+
+console.log (numeros);
+
