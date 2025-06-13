@@ -43,9 +43,11 @@ var cadena= lista.toString ();
  console.log (lista.toString());
 
 
-//  DE CADENA DE TEXTO A NUMERO
+// SEPARAR ELEMENTOS DE LA CADENA
 
 // var x = cadena.split(',');
 
-console.log (cadena.split(','));
+console.log (cadena.split(','))
 
+
+//  DE CADENA DE TEXTO A NUMERO -- BUCLE QUE RECORRA EL ARRAY, COJA CADA ELEMENTO Y LOS CONVIERTA A NÚMERO
