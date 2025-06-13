@@ -36,7 +36,16 @@ var lista= [];
     lista.push (i);
     
 }
- console.log (lista.toString ());
+ console.log (lista);
+
+var cadena= lista.toString ();
+
+ console.log (lista.toString());
 
 
+//  DE CADENA DE TEXTO A NUMERO
+
+// var x = cadena.split(',');
+
+console.log (cadena.split(','));
 
