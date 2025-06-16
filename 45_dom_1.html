@@ -14,6 +14,42 @@
             color: azure;
             background-color: cornflowerblue;
         }
+
+        .contenedor {
+            display:flex;
+            gap: 10px;
+            background-color: aliceblue;
+            border: 6px solid black;
+            height: 500px;
+        }
+
+ .contenedor div {
+    
+    height: 100px;
+    width: 100px;
+    border: dotted 4px black;
+    border-radius: 50px;
+
+ }
+
+ .uno {
+    background-color: rgb(144, 116, 169);
+ }
+
+ .dos {
+    background-color: rgb(238, 202, 149);
+ }
+ .tres {
+    background-color: rgb(172, 202, 236);
+ }
+ .cuatro {
+    background-color: rgb(203, 229, 164);
+ }
+ .cinco {
+    background-color: rgb(250, 246, 164);
+ }
+
+
     </style>
     <script src="js/45_dom_1.js"></script>
 </head>
@@ -69,6 +105,26 @@
     <label for="">
     <input type="radio" name="opciones" id="" value="5"> Cinco
     </label>
+<br>
+<br>
+    <button onclick="verSeleccion()">
+        ENVIAR
+    </button>
+
+    <p id="seleccion"></p>
+
+
+    <br>
+<br>
+
+<p>Seleccione color de fondo</p>
+<div class="contenedor" id="grupo"> 
+    <div class="uno" onclick="cambiaColor (1)"></div>
+    <div class="dos" onclick="cambiaColor (2)"></div>
+    <div class="tres" onclick="cambiaColor (3)"></div>
+    <div class="cuatro" onclick="cambiaColor (4)"></div>
+    <div class="cinco" onclick="cambiaColor (5)"></div>
+</div>
 </body>
 
 </html>

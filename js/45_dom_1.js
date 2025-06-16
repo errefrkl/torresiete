@@ -49,4 +49,41 @@ dos.className = 'rojo';
 
 }
 
+function verSeleccion  () {
+    var radios = document.getElementsByName('opciones');
+    var selec = document.getElementById( 'seleccion');
+    for (var opc of radios) {
+        console.log ('Valor: ' + opc.value + "Selecc:" + opc.checked);
 
+    if (opc.checked) {
+        selec.textContent = "Has seleccionado  " + opc.value;
+        break;
+    }
+    }
+ }
+
+ function cambiaColor (actual) {
+    var grp = document.getElementById ('grupo')
+    
+      
+         switch (actual) {
+                case 1:
+                     grp.style.backgroundColor= 'rgb(144, 116, 169)'; 
+                     break;
+                case 2: 
+                 grp.style.backgroundColor='rgb(238, 202, 149)' ; 
+                 break;
+                case 3: 
+                 grp.style.backgroundColor='rgb(172, 202, 236)' ;
+                 break;
+                case 4: 
+                 grp.style.backgroundColor='rgb(203, 229, 164)' ;
+                 break;
+                 case 5: 
+                  grp.style.backgroundColor='rgb(250, 246, 164)' ;
+                   break;
+          
+              default:
+                break;
+ }
+}
