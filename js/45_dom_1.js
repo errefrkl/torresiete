@@ -17,8 +17,8 @@ function tagName_() {
 
 function verPorID (){
     var primero = document.getElementById ('primero');
-
     primero.textContent = 'Este título ha sido modificado';
+
 }
 
 function verPorClase () {
@@ -28,6 +28,15 @@ function verPorClase () {
     }
 }
 
+function cambiaClase () {
+var elemento = document.getElementById ('primero');
+if (elemento.className == 'rojo') {
+    elemento.className = 'titulo'
+}
+else{
+    elemento.className= 'rojo'
+}
+}
 
 
 // MISMO SELECTOR QUE EN LAS HOJAS DE ESTILO (./#)
@@ -39,3 +48,5 @@ dos.className = 'rojo';
       console.log ('Por Query:' + dos.textContent);
 
 }
+
+
