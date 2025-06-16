@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom 1</title>
+    <style>
+        .rojo {
+            color:rgb(146, 0, 0); 
+        }
+        .titulo {
+            color: azure;
+            background-color: cornflowerblue;
+        }
+    </style>
+    <script src="js/45_dom_1.js"></script>
+</head>
+<body>
+    <!-- DOM: Documento Object Model -->
+    <h1>DOM: Documento Object Model</h1>
+    <button onclick="muestraH1 ()">Haz clic aquí</button>
+
+    <h1 class="titulo" id="primero"> 1er título</h1>
+    <h1 class="titulo" id="segundo"> 2o título</h1>
+    <h1 class="titulo" id="tercero">3er título</h1>
+
+    <button onclick="tagName_ ()">Tag Name</button>
+
+    <button onclick="verPorID ()">VER POR ID</button>
+
+    <button onclick="verPorClase ()">Ver por clase </button>
+
+    <button onclick="verConQuery ()">Ver Con Query</button>
+</body>
+</html>
