@@ -87,3 +87,46 @@ function verSeleccion  () {
                 break;
  }
 }
+
+
+function cambiaColor(actual){
+    var grp = document.getElementById('grupo')
+    limpiaEstilos();
+    switch (actual) {
+        case 1:
+            //grp.style.backgroundColor = '#4f32dd';
+            grp.classList.add('uno');
+            
+            break;
+        case 2:
+            //grp.style.backgroundColor = '#55efc4';
+            grp.classList.add('dos');
+            
+            break;
+        case 3:
+            //grp.style.backgroundColor = '#74b9ff';
+            grp.classList.add('tres');
+            break;            
+        case 4:
+            //grp.style.backgroundColor = '#fd79a8';
+            grp.classList.add('cuatro');
+            break;
+        case 5:
+            //grp.style.backgroundColor = '#a29bfe';
+            grp.classList.add('cinco');
+            break;            
+    
+        default:
+            break;
+    }
+
+}
+function limpiaEstilos(){
+    var elemento = document.getElementById('grupo');
+    var clases = elemento.classList;
+    for (var c of clases){
+        if (c != 'contenedor'){
+            clases.remove(c);
+        }
+    }
+}

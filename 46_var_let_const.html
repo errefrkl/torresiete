@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VAR LET CONST</title>
+
+    <script>
+        // var x= 1;
+        // let y=0;
+        // const z= 'Hola';
+
+        function ejemploVar () {
+        var x=10;
+        if (true) {
+            var x = 20;
+            console.log (x);
+        }
+
+        console.log (x);
+    }
+
+
+    function ejemploLet () {
+        let x = 10;
+         if (true) {
+            var x = 20;
+            console.log (x);
+        }
+        console.log (x);
+    }
+
+
+        function ejemploConst () {
+        const x = 10;
+         if (true) {
+            const x = 20;
+            console.log (x);
+            x ++;
+        }
+       
+    }
+    
+    </script>
+</head>
+<body>
+
+    <button onclick="ejemploVar()"> Ejemplo Var </button>
+      <button onclick="ejemploLet()"> Ejemplo Let </button>
+        <button onclick="ejemploConst()"> Ejemplo Const </button>
+    
+</body>
+</html>
